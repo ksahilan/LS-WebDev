@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tennis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Table Tennis</h1>
+            <nav>
+                <ul>
+                    <li><a href="#game-overview">Game Overview</a></li>
+                    <li><a href="#game-highlights">Game Highlights</a></li>
+                    <li><a href="#get-started">How to Get Started</a></li>
+                    <li><a href="#quiz">Quiz</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="game-overview" class="game-overview">
+                <h2>Game Overview</h2>
+                
+                <p>Table tennis, also known as ping-pong, is a sport in which two or four 
+                    players hit a lightweight ball back and forth using small paddles. 
+                    The game takes place on a hard table divided by a net. Originating in 
+                    the early 20th century, table tennis has grown into a popular competitive sport worldwide.</p>
+                
+                <p>The basic rules include hitting the ball so it bounces on the opponent's 
+                    side of the table, scoring points when the opponent fails to return the 
+                    ball correctly. Games are usually played to 11 points, and a match is 
+                    typically best of 5 or 7 games.</p>
+            </section>
+
+            <section id="game-highlights" class="game-highlights">
+                <h2>Game Highlights</h2>
+                <p>Table tennis has seen many memorable moments and legendary players. Some key highlights include:</p>
+                <ul>
+                    <li><strong>Historic Matches:</strong> The epic rivalry between China's Ma Long and Fan Zhendong.</li>
+                    <li><strong>Key Tournaments:</strong> The World Table Tennis Championships and the Olympic Games are the pinnacle of competitive table tennis.</li>
+                    <li><strong>Iconic Players:</strong> Legends like Jan-Ove Waldner, Deng Yaping, and Timo Boll have left an indelible mark on the sport.</li>
+                </ul>
+                <img src="https://www.si.com/.image/t_share/MTY4MTU3NzM1MDUyNDUzMTM3/ma-long-olympic-table-tennis-previewjpg.jpg" alt="Table Tennis Highlights" class="highlight-img">
+            </section>
+
+            <section id="get-started" class="get-started">
+                <h2>How to Get Started</h2>
+                <p>Interested in playing table tennis? Here's how to begin:</p>
+                <h3>Equipment Needed</h3>
+                <ul>
+                    <li>A table tennis paddle</li>
+                    <li>A table tennis ball</li>
+                    <li>A table with a net</li>
+                </ul>
+                <h3>Basic Strategies</h3>
+                <ul>
+                    <li>Learn the basic strokes: forehand, backhand, and serve.</li>
+                    <li>Practice good footwork to position yourself effectively.</li>
+                    <li>Develop a consistent serve to gain an advantage.</li>
+                </ul>
+                <h3>Beginner Tips</h3>
+                <ul>
+                    <li>Start with simple drills to build your skills.</li>
+                    <li>Watch and learn from professional matches.</li>
+                    <li>Join a local club to practice with others and get coaching.</li>
+                </ul>
+            </section>
+
+            <section id="quiz" class="quiz">
+                <h2>Table Tennis Quiz</h2>
+                <div id="quiz-container">
+                    <p>Test your knowledge about table tennis!</p>
+                    <p id="question"></p>
+                    <div id="options">
+                        <button onclick="checkAnswer(0)">Option 1</button>
+                        <button onclick="checkAnswer(1)">Option 2</button>
+                        <button onclick="checkAnswer(2)">Option 3</button>
+                        <button onclick="checkAnswer(3)">Option 4</button>
+                    </div>
+                    <p id="result"></p>
+                    <button onclick="nextQuestion()">Next Question</button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Table Tennis. All rights reserved.</p>
+            <p>Visit the official website: <a href="https://www.ittf.com" target="_blank">www.ittf.com</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
